@@ -5,10 +5,10 @@ module.exports = class SignupPage {
     }
     open (){
        // this.driver.get(`${procces.env.URL}/signup`)
-       this.driver.get('localhost:8000/signup')
+       this.driver.get('localhost:8000/forgetpassword')
     }
     setUserName (user){
-       // this.driver.findElement(By.xpath("/html/body/section/input[1]")).sendKeys(user); 
+      //  this.driver.findElement(By.xpath("/html/body/section/input[1]")).sendKeys(user); 
     }
     clearUserName (){
       //  this.driver.findElement(By.xpath("/html/body/section/input[1]")).clear(); 
