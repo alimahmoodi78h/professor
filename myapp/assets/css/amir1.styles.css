@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	align-content: center;
+	
+}
+
+.bodysection {
+	display: flex;
+	margin: 3% 30%;
+	flex-direction: column;
+	align-content: center;
+	background-color: darkgray;
+	border: thick;
+	align-content: center;
+	
+}
+
+.bodysection div{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+}
+.bodysection div div {
+	color: black;
+	margin: 10px 30px;
+
+	
+}
+label {
+	text-align: center;
+	background-color: red;
+	padding-top: 0;
+	padding: 0px;
+	background-color: darkgray;
+	margin: 5% 20% 0;
+	
+}
+input {
+	margin: 1% 20%;
+	background-color: cornflowerblue;
+	height: 30px;
+}
+button {
+	margin: 5% 40%;
+	padding: 10px;
+	background-color: cornflowerblue;
+	color: white;
+	border-radius: 10px;
+}
+.kapcha {
+	margin: 5% 30%;
+	padding: 10px;
+	background-color: cornflowerblue;
+	color: white;
+}
+header {
+	padding: 30px;
+	
+	background-color: cornflowerblue;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	margin-top: 10px;
+	
+}
+
+
+.footerul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.footerul li {
+	margin: auto;
+}
+.footerul img {
+	width: 40px;
+}
+
+
+.forgetpassword {
+	background-color: cornflowerblue;
+	color: white;
+	padding: 5px;
+	border: #FFFFFF;border-bottom-width: thick;
+	border-radius: 10px;
+	
+}
+
+
+
